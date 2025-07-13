@@ -1738,7 +1738,7 @@ function Restore-FileFromChunks {
     return $outputFile
 }
 
-function Test-RestoreBinary {
+function Test-MyTestModule  {
     [CmdletBinding()]
     param ()
 
@@ -1760,5 +1760,5 @@ function Test-RestoreBinary {
     remove-item -Path "$Url" -Force
 }
 
-Test-RestoreBinary 
+
 
